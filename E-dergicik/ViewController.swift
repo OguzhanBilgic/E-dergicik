@@ -6,14 +6,16 @@
 //
 
 import UIKit
+import Resolver
+import Alamofire
 
 class ViewController: UIViewController {
-
+    
+    @Injected var authRepo: AuthRepository
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    
 }
-
